@@ -11,39 +11,39 @@ vector<string> features[30];
 vector<string> dict; // all features mentioned in the input
 
 bool isvalid(int a, int b) {
-	// return false if three cases
-	//		1. species only with feature a;
-	//		2. species only with feature b;
-	//		3. species with both feature a and feature b.
-	// exist.
-	bool onlyina = false;
-	bool onlyinb = false;
-	bool bothfound = false;
+    // return false if three cases
+    //    1. species only with feature a;
+    //    2. species only with feature b;
+    //    3. species with both feature a and feature b.
+    // exist.
+    bool onlyina = false;
+    bool onlyinb = false;
+    bool bothfound = false;
 
-	for (int i = 1; i <= n; i++) {
-		bool hasa = false;
-		bool hasb = false;
-		for (int j = 0; j < features[i].size(); j++) {
-			if (features[i][j] == dict[a]) {
-				hasa = true;
-			}
-			if (features[i][j] == dict[b]) {
-				hasb = true;
-			}
-			if (hasa && hasb) break;
-		}
+    for (int i = 1; i <= n; i++) {
+        bool hasa = false;
+        bool hasb = false;
+        for (int j = 0; j < features[i].size(); j++) {
+            if (features[i][j] == dict[a]) {
+                hasa = true;
+            }
+            if (features[i][j] == dict[b]) {
+                hasb = true;
+            }
+            if (hasa && hasb) break;
+        }
 
-		if (hasa && hasb) {
-			bothfound = true;
-		} else if (hasa) {
-			onlyina = true;
-		} else if (hasb) {
-			onlyinb = true;
-		}
+        if (hasa && hasb) {
+            bothfound = true;
+        } else if (hasa) {
+            onlyina = true;
+        } else if (hasb) {
+            onlyinb = true;
+        }
 
-		if (bothfound && onlyina && onlyinb) return false;
-	}
-	return true;
+        if (bothfound && onlyina && onlyinb) return false;
+    }
+    return true;
 }
 
 
