@@ -37,12 +37,12 @@ My code referenced by the official solution. Check the details [here](http://www
 ## 2015 Feb, Bronze
 
 - **Cow Hopscotch**
-	> Keyword: Searching, Dynamic Programming
+	> Keyword: Searching, Permutation & Combination, Dynamic Programming
 	
 ## 2015 Jan, Bronze
 
 - **Cow Routing**
-	> Keyword: Searching, Graph
+	> Keyword: Searching, Brute Force
 	
 - **Cow Routing II**
-	> Keyword: Searching, Graph
+	> Keyword: Searching, Array, Brute Force
