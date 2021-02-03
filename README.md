@@ -30,6 +30,7 @@ Catching the condition that we always have (n - 1) edge(s), USACO official solve
 
 - **Cow Evolution**
 	> Keyword: Graph, Tree, 1d-array, brute-force, divide-and-conquer
+	
 	> [My Code Here](https://github.com/CaoAssignments/cse199-wi21-nora-yinxuan-du/blob/main/2019%20US%20Open/evolution.cpp)
 
 My code referenced by the official solution. Check the details [here](http://www.usaco.org/current/data/sol_evolution_bronze_open19.html)
@@ -50,13 +51,16 @@ My code referenced by the official solution. Check the details [here](http://www
 ## 2012 Dec, Bronze
 - **Crazy Fences**
 	> Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=207
+	
 	> Keyword: Graph, 1d-array, DFS
 	
 ## 2012 Nov, Bronze
 - **Find the cow**
 	> Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=187
+	
 	> Keyword: Combinatorics, 1d-array, string, brute-force, searching
 	
 - **Typo**
 	> Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=188
+	
 	> Keyword: Combinatorics, 1d-array, string, brute-force, searching
