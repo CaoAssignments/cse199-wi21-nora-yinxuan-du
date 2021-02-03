@@ -13,7 +13,7 @@ Important links for the contest:
 
 Solution summary:
 - **Bucket Brigade**
-	> Keyword: Graph, Greedy, BFS, Recursion
+	> Keyword: Graph, 1d-array, 2d-array, BFS, flood-fill
 	> [My Code Here](https://github.com/CaoAssignments/cse199-wi21-nora-yinxuan-du/blob/main/2019%20US%20Open/buckets.cpp)
 
 Different from the most fundamental question about finding the shortest path between two nodes in a graph, this problem sets up 'Rock' grid(s), places we are not allowed to go, and 'Lake' grid, where we can stop as long as we get to the neighboring grid. By this observation, to solve the question, we can just adjust our codes based on the BFS template: 1. for 'Rock' grid(s), we can just do another check before we move to the next grid; 2. for the 'Lake' grid, we can check if the expected next grid is 'Lake' grid so that we know the current grid is valid as an ending grid.
@@ -21,7 +21,7 @@ Different from the most fundamental question about finding the shortest path bet
 USACO official provides a greedy solution but it assumes that each special grid appears exact one time. However, it is not guaranteed in the problem description.
 
 - **Milk Factory**
-	> Keyword: Graph, Union Find, Tree
+	> Keyword: Graph, Tree, Union Find, 1d-array, brute-force
 	> [My Code Here](https://github.com/CaoAssignments/cse199-wi21-nora-yinxuan-du/blob/main/2019%20US%20Open/factory.cpp)
 
 Given n nodes and (n - 1) parent-child relationship(s), this problem wants you to find whether such a graph has a tree structure and print the root of the tree. I provide a Union Find solution here. It makes sense because for every node, we don't need to care about its parent node. We only need to keep track of its root (ancestor). Note that it also works if we have different number of parent-child relationship(s).
@@ -29,7 +29,7 @@ Given n nodes and (n - 1) parent-child relationship(s), this problem wants you t
 Catching the condition that we always have (n - 1) edge(s), USACO official solves this problem perfectly by checking the indegree and outegree of each node.
 
 - **Cow Evolution**
-	> Keyword: Inclusion - Exclusion, String, Tree
+	> Keyword: Graph, Tree, 1d-array, brute-force, divide-and-conquer
 	> [My Code Here](https://github.com/CaoAssignments/cse199-wi21-nora-yinxuan-du/blob/main/2019%20US%20Open/evolution.cpp)
 
 My code referenced by the official solution. Check the details [here](http://www.usaco.org/current/data/sol_evolution_bronze_open19.html)
@@ -46,3 +46,17 @@ My code referenced by the official solution. Check the details [here](http://www
 	
 - **Cow Routing II**
 	> Keyword: Searching, Array, Brute Force
+	
+## 2012 Dec, Bronze
+- **Crazy Fences**
+	> Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=207
+	> Keyword: Graph, 1d-array, DFS
+	
+## 2012 Nov, Bronze
+- **Find the cow**
+	> Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=187
+	> Keyword: Combinatorics, 1d-array, string, brute-force, searching
+	
+- **Typo**
+	> Link: http://www.usaco.org/index.php?page=viewproblem2&cpid=188
+	> Keyword: Combinatorics, 1d-array, string, brute-force, searching
