@@ -33,3 +33,16 @@ Catching the condition that we always have (n - 1) edge(s), USACO official solve
 	> [My Code Here](https://github.com/CaoAssignments/cse199-wi21-nora-yinxuan-du/blob/main/2019%20US%20Open/evolution.cpp)
 
 My code referenced by the official solution. Check the details [here](http://www.usaco.org/current/data/sol_evolution_bronze_open19.html)
+
+## 2015 Feb, Bronze
+
+- **Cow Hopscotch**
+	> Keyword: Searching, Permutation & Combination, Dynamic Programming
+	
+## 2015 Jan, Bronze
+
+- **Cow Routing**
+	> Keyword: Searching, Brute Force
+	
+- **Cow Routing II**
+	> Keyword: Searching, Array, Brute Force
